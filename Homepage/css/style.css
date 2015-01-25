@@ -62,7 +62,7 @@ header{
 }
 .search-box form{
 	position:relative;
-	background:#2d2d2d;
+	background:#ADD699;
 	-moz-border-radius:.6em;
 	-webkit-border-radius:.6em;
 	border-radius:.6em;
@@ -524,7 +524,7 @@ footer li a{
 	font-size:.8em;
 	color:#bbb;
 	padding:10px 0 10px 10px;
-	background:#2d2d2d;
+	background:#ADD699;
 }
 .copy a{
 	color:#06f;
