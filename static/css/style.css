@@ -39,6 +39,58 @@ header{
 	text-align:center;
 }
 
+h1 {
+	margin-top: 20px;
+	font-size: 2.0em;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin-left: 20px;
+}
+
+p {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.jumbotron {
+	position: relative;
+	background: none;
+}
+
+.jumbotron:after {
+     content:"";
+     opacity: 0.2;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1;
+ }
+
+.table {
+	text-align: center;
+}
+
+.th, .td {
+	font-style: bold;
+}
+
+.table-cell {
+	text-align: center;
+}
+
+.form {
+	text-align: left;
+	margin-left: 40px;
+}
+
 .navigation ul{
 	text-align: left;
 	display: block;
