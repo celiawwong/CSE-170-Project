@@ -42,11 +42,10 @@
 				<center> Cottage Pie </center>
 				<div> Rate this food 
 			        <select name="rating" required>
-			            <option value="">- Select one -</option>
-			            <option value="1">It is OK</option>
-			            <option value="2">It is tasty</option>
-			            <option value="3">It is very tasty</option>
-			            <option value="4">Best food ever!</option>
+			        	<option value="1">Best food ever!</option>
+			        	<option value="2">It is very tasty</option>
+			        	<option value="3">It is tasty</option>
+			            <option value="4">It is OK</option>			            
 			        </select>
     			 </div>
 
@@ -55,14 +54,18 @@
 				<center> Chocolate Potato Cake </center>
 				<div> Rate this food 
 			        <select name="rating" required>
-			            <option value="">- Select one -</option>
-			            <option value="1">It is OK</option>
-			            <option value="2">It is tasty</option>
-			            <option value="3">It is very tasty</option>
-			            <option value="4">Best food ever!</option>
+			        	<option value="1">Best food ever!</option>
+			        	<option value="2">It is very tasty</option>
+			        	<option value="3">It is tasty</option>
+			            <option value="4">It is OK</option>			            
 			        </select>
     			 </div>
-    			 <button type="submit" value="Submit">Submit </button>
+    			 <button type="submit" onclick="func()" id ="submit" value="Submit">Submit </button>
+    			 <script>
+    			 	function func() {
+    			 		 confirm("Got it! Thank you for your participation! ");
+    			 	}
+    			 </script>
 			</body>
 		</center>
 		</div>
