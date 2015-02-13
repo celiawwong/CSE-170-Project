@@ -127,9 +127,20 @@ p {
 	box-shadow:0 0 10px #f2f2f2;
 	margin:0 0 10px 0;
 
+	position: relative;
+
 	display:block;
 	color:#7d7d7d;
 	padding:10px;
+}
+.hamburger {
+    position: relative;
+    display: inline-block;
+    width: 2.25em;
+    height: 1.8em;
+    margin-right: 0.3em;
+    border-top: 0.2em solid #fff;
+    border-bottom: 0.2em solid #fff;
 }
 
 .navigation_bar:hover {
