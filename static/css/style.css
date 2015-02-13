@@ -76,6 +76,7 @@ p {
 
 .table {
 	text-align: center;
+	background-color: rgba(26, 8, 8, 0.19);
 }
 
 .th, .td {
@@ -780,4 +781,8 @@ font: inherit;
 vertical-align: baseline;
 position: relative;
 }
+#name {
+	background-color: purple;
+}
+
 
