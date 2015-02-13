@@ -7,6 +7,9 @@
 
     <link href="css/style.css" rel="stylesheet" type="text/css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" id="font-awesome-css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(
 	hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>	
 
@@ -32,8 +35,8 @@
 	</header>
 	
 	<center>
-		<h1>
-			Get involved with the International Center now!
+		<h1 id = "get_involved">
+			<font style = "color:purple"> Get involved with the International Center now! </p>
 		</h1>
 	</br>
 		<p>If you are interested in meeting new friends and exploring different cultures, fill out this form for the International Center!</p>
@@ -75,10 +78,18 @@
 		<input type="text" name="other">
 		<br>
 	</br>
-		<button type="submit" value="Submit">Submit </button>
-		<br>
+		<button type="submit" onclick="func()" id ="submit" value="Submit">Submit 
+		</button>		
+	<script>
+	 	function func() {
+	 		 confirm("Thank you for your participation! ");
+	 	}
+	 </script>
 	</form>
-
+<a href="#" class="back-to-top" style="display: inline;">
+<i class="fa fa-arrow-circle-up"></i>
+</a>
+<a class="back-to-top" style="display: inline;" href="#">Back to Top</a>
 
     	<div class="logo">
         	<img src="images/guanaco.jpg"></a>

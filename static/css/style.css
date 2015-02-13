@@ -796,4 +796,33 @@ position: relative;
 	background-color: purple;
 }
 
+.back-to-top {
+background: none;
+margin: 0;
+position: fixed;
+bottom: 0;
+right: 0;
+width: 70px;
+height: 70px;
+z-index: 100;
+display: none;
+text-decoration: none;
+color: #ffffff;
+background-color: rgba(26, 8, 8, 0.19);
+}
+
+.back-to-top i {
+  font-size: 60px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+#get_involved{
+	font-size: 45px;
+	font-style: oblique;
+	text-shadow: 5px 5px 5px #C3CF6A;
+}
 
