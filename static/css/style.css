@@ -804,4 +804,14 @@ background-color: rgba(26, 8, 8, 0.19);
   font-size: 60px;
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+#get_involved{
+	font-size: 45px;
+	font-style: oblique;
+	text-shadow: 5px 5px 5px #C3CF6A;
+}
 

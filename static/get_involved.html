@@ -35,8 +35,8 @@
 	</header>
 	
 	<center>
-		<h1>
-			Get involved with the International Center now!
+		<h1 id = "get_involved">
+			<font style = "color:purple"> Get involved with the International Center now! </p>
 		</h1>
 	</br>
 		<p>If you are interested in meeting new friends and exploring different cultures, fill out this form for the International Center!</p>
@@ -78,8 +78,13 @@
 		<input type="text" name="other">
 		<br>
 	</br>
-		<button type="submit" value="Submit">Submit </button>
-		<br>
+		<button type="submit" onclick="func()" id ="submit" value="Submit">Submit 
+		</button>		
+	<script>
+	 	function func() {
+	 		 confirm("Thank you for your participation! ");
+	 	}
+	 </script>
 	</form>
 <a href="#" class="back-to-top" style="display: inline;">
 <i class="fa fa-arrow-circle-up"></i>
