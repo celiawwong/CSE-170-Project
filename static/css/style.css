@@ -92,6 +92,13 @@ p {
 	margin-left: 40px;
 }
 
+.playButton {
+	position: relative;
+	width: 1.2em;
+    height: 1em;
+    padding-right: 3px;
+}
+
 .navigation ul{
 	text-align: left;
 	display: block;
