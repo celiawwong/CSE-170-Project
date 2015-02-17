@@ -1,5 +1,6 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <body>
 	<title>
 		International Cafe Schedule
@@ -12,8 +13,20 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(
-	hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-	
+	hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+	 </script>
+	<script type="text/javascript">
+	var count1 = 0;
+	var count2 = 0;
+	function countClicks1() {
+	 count1 = count1 + 1;
+	    document.getElementById("p2").innerHTML = count1;
+	}
+	function countClicks2() {
+	 count2 = count2 + 1;
+	    document.getElementById("p3").innerHTML = count2;
+	}
+	</script>
     <header>
     <div class="navigation">
         <ul>
@@ -45,47 +58,56 @@
 
 				<img src='images/cottage-pie.jpg' class="img-responsive"></img>
 				<center> Cottage Pie </center>
-				<div> Rate this food 
-			        <select name="rating" required>
-			        	<option value="1">Best food ever!</option>
-			        	<option value="2">It is very tasty</option>
-			        	<option value="3">It is tasty</option>
-			            <option value="4">It is OK</option>			            
-			        </select>
-    			 </div>
+				<div id="p2">0</div><button onclick="javascript:countClicks1();">Yum!!</button>
+				
 
+				<p>   
+
+				</p>
 
 				<img src='images/chocolate-cake.jpg' class="img-responsive"></img>
 				<center> Chocolate Potato Cake </center>
-				<div> Rate this food 
-			        <select name="rating" required>
-			        	<option value="1">Best food ever!</option>
-			        	<option value="2">It is very tasty</option>
-			        	<option value="3">It is tasty</option>
-			            <option value="4">It is OK</option>			            
-			        </select>
-    			 </div>
-    			 <button type="submit" onclick="func()" id ="submit" value="Submit">Submit </button>
-    			 <script>
-    			 	function func() {
-    			 		 confirm("Got it! Thank you for your participation! ");
-    			 	}
-    			 </script>
+				<div id="p3">0</div><button onclick="javascript:countClicks2();">Yum!!</button>
+				
+
 			</body>
 		</center>
 		</div>
-		<h2> About Ireland
-		<small> <p>Ireland is an island in the North Atlantic to the west of Great Britain, from which it is separated by the North Channel, the Irish Sea, and St Georges Channel, and after which it is the largest island of the British Isles archipelago. It is the third-largest island in Europe and the twentieth-largest island on Earth. <small></h2></p>
-		<h2>Irish Cuisine
-		<small><p>Food and cuisine in Ireland takes its influence from the crops grown and animals farmed in the island's temperate climate. Pork and white meat are common in Irish cuisine, as well as the potato, which was introduced in Ireland during the 16th century. Additionally, the Guinness beer is also typically associated with Ireland.</small></h2></p>
-	</div>
-    
-	<center>
-    <div class="logo">
-        <img width ="800" src="images/ireland.jpg" class="img-responsive"></a>
-        <img src="images/irland_flag.jpg" class="img-responsive"></a>
-    </div>
-	</center>
+
+	<div class = "accordion" id="accordion2">
+		<div class = "accordion-group">
+			<div class = "accordion-heading">
+				<a class = "accordion-toggle" data-toggle="collapse" data-parent = "#accordion2" href="#collapseOne">
+					<h2> About Ireland </h2>
+				</a>
+			</div>
+			<div id = "collapseOne" class="accordion-body collapse in">
+				<div class = "accordion-inner">
+					<h2><small> <p>Ireland is an island in the North Atlantic to the west of Great Britain, from which it is separated by the North Channel, the Irish Sea, and St Georges Channel, and after which it is the largest island of the British Isles archipelago. It is the third-largest island in Europe and the twentieth-largest island on Earth. <small></h2></p>
+				</div>
+			</div>
+		</div>
+		<div class = "accordion-group">
+			<div class = "accordion-heading">
+				<a class = "accordion-toggle" data-toggle="collapse" data-parent = "#accordion2" href="#collapseTwo">
+					<h2>Irish Cuisine </h2>
+				</a>
+			</div>
+			<div id = "collapseTwo" class="accordion-body collapse in">
+				<div class = "accordion-inner">
+					<h2><small><p>Food and cuisine in Ireland takes its influence from the crops grown and animals farmed in the island's temperate climate. Pork and white meat are common in Irish cuisine, as well as the potato, which was introduced in Ireland during the 16th century. Additionally, the Guinness beer is also typically associated with Ireland.</small></h2></p>
+
+
+					<center>
+			    	<div class="logo">
+    			    	<img width ="800" src="images/ireland.jpg" class="img-responsive"></a>
+   			     		<img src="images/irland_flag.jpg" class="img-responsive"></a>
+    				</div>
+				</center>
+			</div>
+			</div>
+		</div>
+</div>
 
 	<h3>What's on the menu?</h3>
 	<blockquote>
@@ -93,10 +115,13 @@
 		Cottage pie, similar in style to the famous British sheperds pie, served with traditional soda bread, Irish slaw salad and chocolate potato cake.
 	</small> </p>
 	</blockquote>
+</div>
+
 <a href="#" class="back-to-top" style="display: inline;">
 <i class="fa fa-arrow-circle-up"></i>
 </a>
 <a class="back-to-top" style="display: inline;" href="#"><font size = "3">Back to Top</font></a>
+
 
     <div class="widget">
     	<ul>
@@ -106,8 +131,8 @@
 			</center>
 		</ul>
 	</div>
-
 </br>
+	<p>Sources: Wikipedia and I-Cafe</p>
 
 </body>
 </html>
