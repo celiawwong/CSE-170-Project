@@ -1,0 +1,24 @@
+{
+	"navigation":[
+	{
+		"id": 1,
+		"name": "Home",
+		"page": "index"
+	},
+	{
+		"id": 2,
+		"name": "International Cafe",
+		"page": "international_cafe"
+	},
+	{
+		"id": 3,
+		"name": "Names",
+		"page": "names"
+	},
+	{
+		"id": 4,
+		"name": "Get Involved!",
+		"page": "get_involved"
+	}
+	]
+}
