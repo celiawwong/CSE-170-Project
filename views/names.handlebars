@@ -152,9 +152,14 @@
         </br>
     <div class="container">
     <div class="jumbotron">
-    <!--Tables need to be centered and unbulleted-->
     <div class= "background">
             <ul>
+                {{#each sentences}}
+                <p><small>{{english}}</small><p>
+                <button onclick="play()"><a href="{{sound}}"></a>{{phrase}}</button>
+                </br>
+                {{/each}}
+                <!--
                 <a href="names_audio.html">
                     <img src="images/play.png" class="playButton"></img>
                 </a> Dia dhuit.
@@ -162,19 +167,19 @@
                 <a href="names_audio.html">
                     <img src="images/play.png" class="playButton"></img>
                 </a>Dia is Muire dhuit.
-                <p>Hello (as a reply).</p>
+                <p><small>Hello (as a reply).</small></p>
                 <a href="names_audio.html">
                     <img src="images/play.png" class="playButton"></img>
                 </a>Cad is ainm duit?
-                <p>What is your name?</p>
+                <p><small>What is your name?</small></p>
                 <a href="names_audio.html">
                     <img src="images/play.png" class="playButton"></img>
                 </a>(name) is ainm dom.
-                <p>My name is (name).</p>           
+                <p><small>My name is (name).</small></p>           
                 <a href="names_audio.html">
                     <img src="images/play.png" class="playButton"></img>
                 </a>Is e seo an bia sobhlasta.
-                <p>This food is delicious.</p>
+                <p><small>This food is delicious.</small></p> -->
             </ul>
     </div>
 </div>
