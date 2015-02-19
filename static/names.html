@@ -1,6 +1,13 @@
 <!DOCTYPE HTML>
 <html>
 <body>
+    <script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+    }
+    </script>
+
 	<title>
 		Names Across the Globe
 	</title>
@@ -59,9 +66,14 @@
             </tr>
             <tr>
                 <td><th>
-                    <a href="names_audio.html">
+                    <button onclick="play()" class="buttonSize"><img src="images/play.png" style="width:20px">
+                            <audio id="audio" src="audio/maniacal-laugh-3.wav">
+                        </audio></button>
+                    <!--<a href="names_audio.html">
+                        <source >
                         <img src="images/play.png" class="playButton">
                         </img>
+                    </audio> -->
                     </a>Oisin
                 </th></td>
                 <td><th>

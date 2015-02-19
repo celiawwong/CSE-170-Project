@@ -99,6 +99,14 @@ p {
     padding-right: 3px;
 }
 
+.buttonSize {
+	position: relative;
+	width: 3px;
+	height: 3px;
+	padding-top: 10px;
+	padding-right: 5px;
+}
+
 .navigation ul{
 	text-align: left;
 	display: block;

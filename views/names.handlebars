@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <body>
+
 	<title>
 		Names Across the Globe
 	</title>
@@ -61,6 +62,15 @@
             <tr>
                 <td><th>Male Names</th></td>
                 <td><th>Female Names</th></td>
+                {{#each names}}
+                    <center>
+                    <tr>
+                        <td><button onclick="play()"><a href="{{maleSound}}"></a>{{maleName}}</button></td>
+                        <td><button onclick="play()"><a href="{{femaleSound}}"></a>{{femaleName}}</button></td>
+                    </tr>
+                    </center>
+                {{/each}}
+                <!--
             </tr>
             <tr>
                 <td><th>
@@ -130,7 +140,7 @@
                         </img>
                     </a>Eimear
                 </th></td>
-            </tr>
+            </tr> -->
             </ul>
         </center>
         </table>

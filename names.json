@@ -1,0 +1,39 @@
+{
+	"names":[
+	{
+		"id": 1,
+		"maleName": "Oisin",
+		"femaleName": "Caoimhe",
+		"maleSound": "static/audio/maniacal-laugh-3.wav",
+		"femaleSound": "static/audio/maniacal-laugh-3.wav"
+	},
+	{
+		"id": 2,
+		"maleName": "Eoin",
+		"femaleName": "Saoirse",
+		"maleSound": "static/audio/maniacal-laugh-3.wav",
+		"femaleSound": "static/audio/maniacal-laugh-3.wav"
+	},
+	{
+		"id": 3,
+		"maleName": "Tadhg",
+		"femaleName": "Ciara",
+		"maleSound": "static/audio/maniacal-laugh-3.wav",
+		"femaleSound": "static/audio/maniacal-laugh-3.wav"
+	},
+	{
+		"id": 4,
+		"maleName": "Rhys",
+		"femaleName": "Sadhbh",
+		"maleSound": "static/audio/maniacal-laugh-3.wav",
+		"femaleSound": "static/audio/maniacal-laugh-3.wav"
+	},
+	{
+		"id": 5,
+		"maleName": "Killian",
+		"femaleName": "Eimear",
+		"maleSound": "static/audio/maniacal-laugh-3.wav",
+		"femaleSound": "static/audio/maniacal-laugh-3.wav"
+	}
+	]
+}
