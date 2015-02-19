@@ -15,6 +15,7 @@ var get_involved = require('./routes/get_involved');
 var contact = require('./routes/contact');
 var analytics = require('./routes/analytics');
 var names_audio = require('./routes/names_audio');
+var home = require('./routes/home');
 
 // Example route
 // var user = require('./routes/user');
@@ -49,6 +50,7 @@ app.get('/get_involved', get_involved.view);
 app.get('/contact',contact.view);
 app.get('/analytics', analytics.view);
 app.get('/names_audio', names_audio.view);
+app.get('/home', home.view);
 //app.get('/', palette.sendColor);
 
 // Example route
