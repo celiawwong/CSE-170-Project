@@ -1,6 +1,18 @@
 <!DOCTYPE HTML>
 <html>
 <body>
+	<script type="text/javascript">
+    var clicks = 18;
+    var clicks2 = 33;
+    function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    function onClick2() {
+    	clicks2 += 1;
+        document.getElementById("clicks2").innerHTML = clicks2;
+    };
+    </script>
 	<title>
 		International Cafe Schedule
 	</title>
@@ -41,22 +53,28 @@
 			<body>
 				<h1>International Cafe</h1>
 				<h3>This week's featured country: </h3>
-				<h2><small> IRELAND </small></h2>
-
+				<h2>IRELAND</h2>
+			</br>
+				<p>Are you a fan of any of these Irish dishes? 'Yum!' them to increase their 'Yum!' popularity!</p>
+				<p>Top dishes can be found at the Top I-Cafe Dishes page!</p>
 				<img src='images/cottage-pie.jpg' class="img-responsive"></img>
 				<center> Cottage Pie </center>
+				<p style="text-align:left;">Yums: <a id="clicks">18</a>
+				<span style="float:right;"><button type="button" onClick="onClick()" >Yum!</button></span></p>
+<!--
 				<div> Rate this food 
-			        <select name="rating" required>
 			        	<option value="1">Best food ever!</option>
 			        	<option value="2">It is very tasty</option>
 			        	<option value="3">It is tasty</option>
 			            <option value="4">It is OK</option>			            
 			        </select>
     			 </div>
-
+-->
 
 				<img src='images/chocolate-cake.jpg' class="img-responsive"></img>
 				<center> Chocolate Potato Cake </center>
+				<p style="text-align:left;">Yums: <a id="clicks2">33</a><span style="float:right;"><button type="button" onClick="onClick2()">Yum!</button></span></p>
+<!--
 				<div> Rate this food 
 			        <select name="rating" required>
 			        	<option value="1">Best food ever!</option>
@@ -71,6 +89,8 @@
     			 		 confirm("Got it! Thank you for your participation! ");
     			 	}
     			 </script>
+
+-->
 			</body>
 		</center>
 		</div>
@@ -133,7 +153,7 @@
     	<ul>
     		<center>
         		<li class="active"><a href="names"><h4> Let's learn some Irish!</h4> </a></li>
-				<li class="active"><a href="analytics"> <h4> International Cafe Dish Popularity </h4> </a></li>
+				<li class="active"><a href="analytics"> <h4>Top I-Cafe Dishes</h4> </a></li>
 			</center>
 		</ul>
 	</div>
