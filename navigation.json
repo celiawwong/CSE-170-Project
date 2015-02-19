@@ -3,7 +3,7 @@
 	{
 		"id": 1,
 		"name": "Home",
-		"page": "index"
+		"page": "home"
 	},
 	{
 		"id": 2,
@@ -12,7 +12,7 @@
 	},
 	{
 		"id": 3,
-		"name": "Names",
+		"name": "Learn Irish!",
 		"page": "names"
 	},
 	{
