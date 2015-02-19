@@ -4,6 +4,7 @@
 	<script type="text/javascript">
     var clicks = 18;
     var clicks2 = 33;
+    var clicks3 = 15;
     function onClick() {
         clicks += 1;
         document.getElementById("clicks").innerHTML = clicks;
@@ -11,6 +12,10 @@
     function onClick2() {
     	clicks2 += 1;
         document.getElementById("clicks2").innerHTML = clicks2;
+    };
+    function onClick3() {
+    	clicks3 += 1;
+        document.getElementById("clicks3").innerHTML = clicks3;
     };
     </script>
 	<title>
@@ -54,6 +59,7 @@
 				<h1>International Cafe</h1>
 				<h3>This week's featured country: </h3>
 				<h2>IRELAND</h2>
+				
 			</br>
 				<p>Are you a fan of any of these Irish dishes? 'Yum!' them to increase their 'Yum!' popularity!</p>
 				<p>Top dishes can be found at the Top I-Cafe Dishes page!</p>
@@ -74,6 +80,8 @@
 				<img src='images/chocolate-cake.jpg' class="img-responsive"></img>
 				<center> Chocolate Potato Cake </center>
 				<p style="text-align:left;">Yums: <a id="clicks2">33</a><span style="float:right;"><button type="button" onClick="onClick2()">Yum!</button></span></p>
+				<p>
+
 <!--
 				<div> Rate this food 
 			        <select name="rating" required>
@@ -95,6 +103,8 @@
 		</center>
 		</div>
 
+	</p>
+	<p style="text-align:center;"><button type="button" onClick="onClick3()">Attending This Week!</button><a id="clicks3">15</a></p>
 	<h3>What's on the menu?</h3>
 	<blockquote>
 	<p> <small>
