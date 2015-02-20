@@ -10,7 +10,9 @@
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
-
+    <script type="text/javascript">
+    function jBeep(a){if(!a)a="jBeep/jBeep.wav";var b,c,d;d=true;try{if(typeof document.createElement("audio").play=="undefined")d=false}catch(e){d=false}c=document.getElementsByTagName("body")[0];if(!c)c=document.getElementsByTagName("html")[0];b=document.getElementById("jBeep");if(b)c.removeChild(b);if(d){b=document.createElement("audio");b.setAttribute("id","jBeep");b.setAttribute("src",a);b.play()}else if(navigator.userAgent.toLowerCase().indexOf("msie")>-1){b=document.createElement("bgsound");b.setAttribute("id","jBeep");b.setAttribute("loop",1);b.setAttribute("src",a);c.appendChild(b)}else{var f;b=document.createElement("object");b.setAttribute("id","jBeep");b.setAttribute("type","audio/wav");b.setAttribute("style","display:none;");b.setAttribute("data",a);f=document.createElement("param");f.setAttribute("name","autostart");f.setAttribute("value","false");b.appendChild(f);c.appendChild(b);try{b.Play()}catch(e){b.object.Play()}}}
+    </script>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" id="font-awesome-css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
 
@@ -54,19 +56,18 @@
     </br>
     <div class="container">
     <div class="jumbotron">
-    <!--Tables need to be centered and unbulleted-->
     <div class= "background">
         <table style="width:50%">
             <center>
             <ul>
             <tr>
-                <td><th>Male Names</th></td>
-                <td><th>Female Names</th></td>
+                <td>Male Names</td>
+                <td>Female Names</td>
                 {{#each names}}
                     <center>
                     <tr>
-                        <td><button onclick="play()"><a href="{{maleSound}}"></a>{{maleName}}</button></td>
-                        <td><button onclick="play()"><a href="{{femaleSound}}"></a>{{femaleName}}</button></td>
+                        <td><button onclick="javascript:jBeep('http://www.wav-sounds.com/various/babycry.wav');">{{maleName}}</td></button>
+                        <td><button onclick="javascript:jBeep('http://www.wav-sounds.com/various/babycry.wav');">{{femaleName}}</td></button>
                     </tr>
                     </center>
                 {{/each}}
@@ -145,35 +146,46 @@
         </center>
         </table>
 </div> 
-
+</div>
+</div>
         </br>
-            <h3>Common Greetings</h3>
-            <p>Click to hear the pronunciation! English translations are provided below each Irish phrase.</p>
+            <h3>Common Greetings and Phrases</h3>
+            <p>Click to hear the pronunciation! English translations are provided above each Irish phrase.</p>
         </br>
-
+    <div class="container">
+    <div class="jumbotron">
+    <div class= "background">
             <ul>
+                {{#each sentences}}
+                <p><small>{{english}}</small><p>
+                <button onclick="javascript:jBeep('http://www.wav-sounds.com/various/babycry.wav');"></a><a href="{{sound}}"></a>{{phrase}}</button>
+                </br>
+                {{/each}}
+                <!--
                 <a href="names_audio.html">
                     <img src="images/play.png" class="playButton"></img>
                 </a> Dia dhuit.
-                <p>Hello.</p>
+                <p><small>Hello.</small></p>
                 <a href="names_audio.html">
                     <img src="images/play.png" class="playButton"></img>
                 </a>Dia is Muire dhuit.
-                <p>Hello (as a reply).</p>
+                <p><small>Hello (as a reply).</small></p>
                 <a href="names_audio.html">
                     <img src="images/play.png" class="playButton"></img>
                 </a>Cad is ainm duit?
-                <p>What is your name?</p>
+                <p><small>What is your name?</small></p>
                 <a href="names_audio.html">
                     <img src="images/play.png" class="playButton"></img>
                 </a>(name) is ainm dom.
-                <p>My name is (name).</p>           
+                <p><small>My name is (name).</small></p>           
                 <a href="names_audio.html">
                     <img src="images/play.png" class="playButton"></img>
                 </a>Is e seo an bia sobhlasta.
-                <p>This food is delicious.</p>
+                <p><small>This food is delicious.</small></p> -->
             </ul>
     </div>
+</div>
+</div>
 
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="/js/bootstrap.min.js"></script>

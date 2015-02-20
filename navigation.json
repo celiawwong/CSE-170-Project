@@ -3,7 +3,7 @@
 	{
 		"id": 1,
 		"name": "Home",
-		"page": "index"
+		"page": "home"
 	},
 	{
 		"id": 2,
@@ -12,11 +12,16 @@
 	},
 	{
 		"id": 3,
-		"name": "Names",
-		"page": "names"
+		"name": "Top I-Cafe Dishes",
+		"page": "analytics"
 	},
 	{
 		"id": 4,
+		"name": "Learn Irish!",
+		"page": "names"
+	},
+	{
+		"id": 5,
 		"name": "Get Involved!",
 		"page": "get_involved"
 	}
