@@ -1,0 +1,34 @@
+{
+	"rankings":[
+	{
+		"id": 5,
+		"country": "India",
+		"food": "Chicken Tikka Masala",
+		"image": "images/llama-pic.jpg"
+	},
+	{
+		"id": 4,
+		"country": "Italy",
+		"food": "Potato Gnocchi",
+		"image": "images/llama-pic.jpg"
+	},
+	{
+		"id": 3,
+		"country": "Brazil",
+		"food": "Vatapa de Galinha (chicken stew)",
+		"image":"images/llama-pic.jpg"
+	},
+	{
+		"id": 2,
+		"country": "Iran",
+		"food": "Baklava dessert",
+		"image":"images/llama-pic.jpg"
+	},
+	{
+		"id": 1,
+		"country": "Peru",
+		"food": "Peruvian chicken and rice",
+		"image":"images/llama-pic.jpg"
+	}
+	]
+}

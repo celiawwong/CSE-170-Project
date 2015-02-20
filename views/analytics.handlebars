@@ -36,7 +36,7 @@ hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </scri
                 <ul>
 
                     <div class="widget">
-                    {{#each navigation}}
+                    {{#each navigation.navigation}}
                         <li><a href="{{page}}">{{name}}</a></li>
                     {{/each}}
                     </div>
@@ -61,35 +61,14 @@ hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </scri
             Top 5 Popular Dishes
         </h1>
         <br>
-
-        <p>#5 India - Chicken Tikka Masala</p>
+        {{#each rankings.rankings}}
+        <p>#{{id}} {{country}} - {{food}}</p>
         <div class="logo">
-            <img src="images/llama-pic.jpg">
+            <img src={{image}}>
         </div>
         <br>
+        {{/each}}
 
-        <p>#4 Italy - Potato Gnocchi</p
-        <div class="logo">
-            <img src="images/llama-pic.jpg">
-        </div>
-        <br>
-
-        <p>#3 Brazil - Vatapa de Galinha (chicken stew)</p>
-        <div class="logo">
-            <img src="images/llama-pic.jpg">
-        </div>
-        <br>
-        
-        <p>#2 Iran - Baklava dessert</p>
-        <div class="logo">
-            <img src="images/llama-pic.jpg">
-        </div>
-        <br>
-
-        <p>#1 Peru - Peruvian chicken and rice </p>
-        <div class="logo">
-            <img src="images/llama-pic.jpg">
-        </div>
     </center>
     <br>
 
