@@ -46,45 +46,50 @@
 	</br>
 		<p>If you are interested in meeting new friends and exploring different cultures, fill out this form for the International Center!</p>
 	</br>
+</center>
 
 	<form>
-		First Name:
-		<input type="text" name="firstname">
-		<br>
-		Last Name:
-		<input type="text" name="lastname">
-		<br>
-		Email:
-		<input type="text" name="email">
-		<br>
-	</br>
-		Affiliation with UCSD: <br>
-		<input type="radio" name="affiliation" value="Undergraduate" unchecked>Undergraduate
-		<br>
-		<input type="radio" name="affiliation" value="Graduate" unchecked>Graduate
-		<br>
-		<input type="radio" name="affiliation" value="Community member" unchecked>Community Member
-		<br>
-		<input type="radio" name="affiliation" value="Other" unchecked>Other
-		<input type="text" name="other">
-		<br>
-	</br>
+		<div class="form-group">
+			<label for="inputFirstName">First Name</label>
+			<input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+		</div>
+		<div class="form-group">
+			<label for="inputLastName">Last Name</label>
+			<input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+		</div>
+		<div class="form-group">
+			<label for="inputEmail">Email address </label>
+			<input type="text" class="form-control" id="inputEmail" placeholder="Enter email">
+		</div>
+		<div class="form-group">
+			<label for="inputAffiliation"> Affiliation with UCSD </labe1>
+			<select class="form-control">
+				<option> Undergraduate Student </option>
+				<option> Graduate Student </option>
+				<option> Faculty or Staff </option>
+				<option> Community Member </option>
+				<option> Other </option>
+			</select>
+		</div>
 	</form>
 
 	<form>
-		Type of involvement:<br>
-		<input type="radio" name="involvement" value="Chef for I-Cafe" unchecked>Chef for I-Cafe
-		<br>
-		<input type="radio" name="involvement" value="English Tutoring" unchecked>English Tutoring
-		<br>
-		<input type="radio" name="involvement" value="Volunteer" unchecked>Volunteer
-		<br>
-		<input type="radio" name="involvement" value="Other" unchecked>Other
-		<input type="text" name="other">
-		<br>
-	</br>
-		<button type="submit" onclick="func()" id ="submit" value="Submit">Submit 
-		</button>		
+		<div class="form-group">
+			<label for="inputAffiliation"> Type of Involvement </labe1>
+			<select class="form-control">
+				<option> Chef for I-Cafe </option>
+				<option> English Tutoring </option>
+				<option> Volunteer </option>
+				<option> Other </option>
+			</select>
+		</div>
+		<div class="form-group">
+			<label for="inputOther">If "Other" Please Specify</label>
+			<input type="text" class="form-control" id="inputOther" placeholder="Specify here">
+		</div>
+	</form>
+
+		<a href="#" class="btn btn-default" onclick="func()" type ="submit" value="Submit"> Submit </button>	
 	<script>
 	 	function func() {
 	 		 confirm("Thank you for your participation! ");
@@ -96,6 +101,7 @@
 </a>
 <a class="back-to-top" style="display: inline;" href="#">Back to Top</a>
 
+	<center>
     	<div class="logo">
         	<img src="images/guanaco.jpg"></a>
     	</div>
