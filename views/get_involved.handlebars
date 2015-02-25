@@ -48,53 +48,46 @@
 	</br>
 </center>
 
-	<form>
+	<form id="submissionForm" role="form" method="post">
 		<div class="form-group">
 			<label for="inputFirstName">First Name</label>
-			<input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
-		</div>
-		<div class="form-group">
+			<input type="firstName" class="form-control" id="inputFirstName" placeholder="First Name">
+			<br>
 			<label for="inputLastName">Last Name</label>
-			<input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
-		</div>
-		<div class="form-group">
+			<input type="lastName" class="form-control" id="inputLastName" placeholder="Last Name">
+			<br>
 			<label for="inputEmail">Email address </label>
-			<input type="text" class="form-control" id="inputEmail" placeholder="Enter email">
-		</div>
-		<div class="form-group">
+			<input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+			<br>
 			<label for="inputAffiliation"> Affiliation with UCSD </labe1>
-			<select class="form-control">
+			<select class="form-control" id="affiliation">
+				<option> --Select One-- </option>
 				<option> Undergraduate Student </option>
 				<option> Graduate Student </option>
 				<option> Faculty or Staff </option>
 				<option> Community Member </option>
 				<option> Other </option>
 			</select>
-		</div>
-	</form>
-
-	<form>
-		<div class="form-group">
+			<br>
+			<label for="inputOtherAff" >If Affiliation is "Other" Please Specify</label>
+			<input type="otherAff" class="form-control" id="inputOtherAff" placeholder="Specify here">
+			<br>
 			<label for="inputAffiliation"> Type of Involvement </labe1>
-			<select class="form-control">
+			<select class="form-control" id = "involvement">
+				<option> --Select One-- </option>
 				<option> Chef for I-Cafe </option>
 				<option> English Tutoring </option>
 				<option> Volunteer </option>
 				<option> Other </option>
 			</select>
-		</div>
-		<div class="form-group">
-			<label for="inputOther">If "Other" Please Specify</label>
-			<input type="text" class="form-control" id="inputOther" placeholder="Specify here">
+			<br>
+			<label for="inputOtherInvolvement" >If Involvement is "Other" Please Specify</label>
+			<input type="otherInvolvement" class="form-control" id="inputOtherInvolvement" placeholder="Specify here">
 		</div>
 	</form>
 
-		<a href="#" class="btn btn-default" onclick="func()" type ="submit" value="Submit"> Submit </button>	
-	<script>
-	 	function func() {
-	 		 confirm("Thank you for your participation! ");
-	 	}
-	 </script>
+			<button id="submitBtn" class="btn btn-default" type="submit"> Submit </button>
+
 	</form>
 <a href="#" class="back-to-top" style="display: inline;">
 <i class="fa fa-arrow-circle-up"></i>
@@ -109,6 +102,7 @@
 
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/form_validation.js"></script>
 
 </body>
 </html>
