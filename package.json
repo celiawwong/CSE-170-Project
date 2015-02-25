@@ -16,26 +16,5 @@
   },
   "engines": {
   	"node": "0.10.x"
-<<<<<<< HEAD
   }
 }
-=======
-  },
-{
-  "name": "expres-upload-test",
-  "description": "simple form upload test",
-  "version": "0.1.0",
-  "dependencies": {
-    "express": "~4.0.0",
-    "multer" : "0.1.6"
-  },
-  "devDependencies": {
-  },
-  "scripts": {},
-  "engines": {
-    "node": "0.10.x",
-    "npm": ">1.4.0"
-  }
-}
-}
->>>>>>> 2d35dd15fc82c3a8f5d6da35edf34ed236c5518c
