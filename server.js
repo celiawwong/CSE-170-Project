@@ -10,24 +10,14 @@ var PORT = 3000;
 // Express is a web framework for node.js
 // that makes nontrivial applications easier to build
 var express = require('express');
-	multer = require('multer');
 
 // Create the server instance
 var app = express();
-app.use(multer({ dest: './uploads/'}));
 
 // Print logs to the console and compress pages we send
 app.use(express.logger());
 app.use(express.compress());
 
-app.get('/', function(req, res){
-  res.send('hello world');
-});
-app.post('/', function(req, res){
-    console.log(req.body) // form fields
-    console.log(req.files) // form files
-    res.status(204).end()
-});
 // Return all pages in the /static directory
 // whenever they are requested at '/'
 // e.g., http://localhost:3000/index.html
