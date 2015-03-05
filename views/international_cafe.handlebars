@@ -5,17 +5,29 @@
     var clicks = 18;
     var clicks2 = 33;
     var clicks3 = 15;
+    var clicked1 = false;
+    var clicked2 = false;
+    var clicked3 = false;
     function onClick() {
+    	if(clicked1===false){
         clicks += 1;
         document.getElementById("clicks").innerHTML = clicks;
+        clicked1 = true;
+     }
     };
     function onClick2() {
+    	if(clicked2 === false){
     	clicks2 += 1;
         document.getElementById("clicks2").innerHTML = clicks2;
+        clicked2 = true;
+     }
     };
     function onClick3() {
+    	if(clicked3 === false){
     	clicks3 += 1;
         document.getElementById("clicks3").innerHTML = clicks3;
+        clicked3 =true;
+     }
     };
     </script>
 	<title>
@@ -56,7 +68,8 @@
 		<div class="jumbotron">
 		<center>
 			<body>
-				<font size = "6"><h1>International Cafe</h1>
+			<div>
+				<font size = "6" ><h1>International Cafe</h1>
 				<h4>Where: International Center, Quad area</h4>
 				<h4>When: Friday, March 13, 2015</h4>
 				<h4>Time: 12:00pm-1:15pm</h4>
@@ -138,12 +151,6 @@
 </center>
 	
 
- <a href="#" class="back-to-top" style="display: inline;">
- <i class="fa fa-arrow-circle-up"></i>
- </a>
- <a class="back-to-top" style="display: inline;" href="#">Back to Top</a>
-
-</div>
 
 <a href="#" class="back-to-top" style="display: inline;">
 <i class="fa fa-arrow-circle-up"></i>
