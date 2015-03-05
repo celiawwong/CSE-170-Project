@@ -74,19 +74,6 @@ p {
      z-index: -1;
  }
 
-.table {
-	text-align: center;
-	background-color: rgba(26, 8, 8, 0.19);
-}
-
-.th, .td {
-	font-style: bold;
-}
-
-.table-cell {
-	text-align: center;
-}
-
 .form {
 	text-align: left;
 	margin-left: 40px;
