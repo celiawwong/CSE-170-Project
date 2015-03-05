@@ -52,6 +52,28 @@
 			Speak Irish
 		</h1>
     </br>
+
+<script type="text/javascript">
+$('#myTab a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+$('#myTab a[href="#names"]').tab('show')
+$('#myTab a[href="#phrases"]').tab('show')
+</script>
+
+<div role="tabpanel">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#names" aria-controls="names" role="tab" data-toggle="tab">Names</a></li>
+    <li role="presentation"><a href="#phrases" aria-controls="phrases" role="tab" data-toggle="tab">Phrases</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="names">
+
         <h3>Common Names</h3>
         <p>Click to hear the pronunciation!</p>
     </br>
@@ -67,18 +89,20 @@
             <tbody>
                 {{#each names}}
                     <tr>
-                        <td><button class='btn btn-link' onclick="javascript:jBeep('{{maleSound}}');">{{maleName}}<span class='glyphicon glyphicon-play-circle' aria-hidden='true'?></span></td></button>
-                        <td><button class='btn btn-link'onclick="javascript:jBeep('{{femaleSound}}');">{{femaleName}}<span class='glyphicon glyphicon-play-circle' aria-hidden='false'?></span></td></button>
+                        <td><button class='btn btn-link' onclick="javascript:jBeep('{{maleSound}}');"><span class='glyphicon glyphicon-play-circle' aria-hidden='true'?></span>{{maleName}}</td></button>
+                        <td><button class='btn btn-link'onclick="javascript:jBeep('{{femaleSound}}');"><span class='glyphicon glyphicon-play-circle' aria-hidden='false'?></span>{{femaleName}}</td></button>
                     </tr>
                 {{/each}}
             </tbody>
         </table>
+    </div>
 </div> 
 </div>
 </div>
         </br>
+    <div role="tabpanel" class="tab-pane" id="phrases">
             <h3>Common Greetings and Phrases</h3>
-            <p>Click to hear the pronunciation! English translations are provided above each Irish phrase.</p>
+            <p style="padding-left: 2px" style="padding-right: 2px">Click to hear the pronunciation! English translations are provided above each Irish phrase.</p>
         </br>
     <div class="container">
     <div class="jumbotron">
@@ -86,11 +110,14 @@
             <ul>
                 {{#each sentences}}
                 <p><small><b>{{english}}</b></small><p>
-                <button class='btn btn-link' onclick="javascript:jBeep('{{sound}}');">{{phrase}}<span class='glyphicon glyphicon-play-circle' aria-hidden='true'?</span></button>
+                <button class='btn btn-link' onclick="javascript:jBeep('{{sound}}');"><span class='glyphicon glyphicon-play-circle' aria-hidden='true'?></span>{{phrase}}</button>
                 </br>
                 {{/each}}
             </ul>
+        </div>
     </div>
+</div>
+</div>
 </div>
 </div>
 

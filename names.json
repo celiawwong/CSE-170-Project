@@ -2,36 +2,36 @@
 	"names":[
 	{
 		"id": 1,
-		"maleName": "Oisin",
-		"femaleName": "Caoimhe",
+		"maleName": "  Oisin",
+		"femaleName": "  Caoimhe",
 		"maleSound": "audio/Oisin.wav",
 		"femaleSound": "audio/Caoimhe.wav"
 	},
 	{
 		"id": 2,
-		"maleName": "Eoin",
-		"femaleName": "Saoirse",
+		"maleName": "  Eoin",
+		"femaleName": "  Saoirse",
 		"maleSound": "audio/Eoin.wav",
 		"femaleSound": "audio/Saoirse.wav"
 	},
 	{
 		"id": 3,
-		"maleName": "Tadhg",
-		"femaleName": "Ciara",
+		"maleName": "  Tadhg",
+		"femaleName": "  Ciara",
 		"maleSound": "audio/Tadhg.wav",
 		"femaleSound": "audio/Ciara.wav"
 	},
 	{
 		"id": 4,
-		"maleName": "Aaron",
-		"femaleName": "Sadhbh",
+		"maleName": "  Aaron",
+		"femaleName": "  Sadhbh",
 		"maleSound": "audio/Aaron.wav",
 		"femaleSound": "audio/Sadhbh.wav"
 	},
 	{
 		"id": 5,
-		"maleName": "Killian",
-		"femaleName": "Eimear",
+		"maleName": "  Killian",
+		"femaleName": "  Eimear",
 		"maleSound": "audio/Killian.wav",
 		"femaleSound": "audio/Eimear.wav"
 	}
