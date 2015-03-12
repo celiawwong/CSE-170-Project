@@ -8,13 +8,13 @@ var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
 
-var index = require('./routes/index');
+//var index = require('./routes/index');
 var international_cafe = require('./routes/international_cafe');
 var names = require('./routes/names');
 var get_involved = require('./routes/get_involved');
-var contact = require('./routes/contact');
+//var contact = require('./routes/contact');
 var analytics = require('./routes/analytics');
-var names_audio = require('./routes/names_audio');
+//var names_audio = require('./routes/names_audio');
 var home = require('./routes/home');
 var infocountry = require('./routes/infocountry');
 
@@ -44,13 +44,13 @@ if ('development' == app.get('env')) {
 }
 
 // Add routes here
-app.get('/index', index.view);
+//app.get('/index', index.view);
 app.get('/international_cafe',international_cafe.showNav);
 app.get('/names', names.view);
 app.get('/get_involved', get_involved.view);
-app.get('/contact',contact.view);
+//app.get('/contact',contact.view);
 app.get('/analytics', analytics.view);
-app.get('/names_audio', names_audio.view);
+//app.get('/names_audio', names_audio.view);
 app.get('/home', home.view);
 app.get('/infocountry', infocountry.view);
 //app.get('/', palette.sendColor);
