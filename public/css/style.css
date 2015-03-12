@@ -58,6 +58,20 @@ p {
 	margin-right: 50px;
 }
 
+.container .jumbotron {
+	padding-top: 15px;
+	padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+ .jumbotron h3 {
+ 	font-size: 20px;
+ } 
+ .jumbotron h2 {
+    font-size: 20px;
+ }
+
 .jumbotron {
 	position: relative;
 	background: none;

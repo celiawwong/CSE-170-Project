@@ -5221,11 +5221,11 @@ a.list-group-item.active > .badge,
 }
 
 .jumbotron {
-  padding: 30px;
+  padding: 25px;
   margin-bottom: 30px;
   font-size: 21px;
   font-weight: 200;
-  line-height: 2.1428571435;
+  line-height: 2;
   color: inherit;
   background-color: #eeeeee;
 }
@@ -5237,7 +5237,7 @@ a.list-group-item.active > .badge,
 }
 
 .jumbotron p {
-  line-height: 1.4;
+  line-height: 1.2;
 }
 
 .container .jumbotron {
@@ -5245,21 +5245,21 @@ a.list-group-item.active > .badge,
 }
 
 .jumbotron .container {
-  max-width: 100%;
+  max-width: 90%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 500px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .container .jumbotron {
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-right: 40px;
+    padding-left: 40px;
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px;
+    font-size: 60px;
   }
 }
 
