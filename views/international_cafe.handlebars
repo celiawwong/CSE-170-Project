@@ -64,6 +64,7 @@
     </div>
     </header>
 	
+	{{#each country}}
 	<div class="container">
 		<div class="jumbotron">
 		<center>
@@ -72,34 +73,34 @@
 				<font size = "6" ><h1>International Cafe</h1>
 				<h4>Each week, the International Cafe offers a taste of another part of the world with food and music of a featured country.</h4>
 				<h4>Where: International Center, Quad area</h4>
-				<h4>When: Every Friday! Upcoming: Friday, March 13, 2015</h4>
+				<h4>When: Every Friday! Upcoming: {{date}}</h4>
 				<h4>Time: 12:00pm-1:15pm</h4>
 				<h4>Meal: $5</h4>
 				<h3 style="font-weight:bold;">This week's featured country: </h3>
-				<h2>IRELAND</h2></font>
+				<h2>{{country_name}}</h2></font>
 			</div>
 			<center>
 
 				<h3>What's on the menu?</h3>
 				<blockquote>
 				<p class ="lead"> <small>
-					Cottage pie, similar in style to the famous British sheperds pie, served with traditional soda bread, Irish slaw salad and chocolate potato cake.
+					{{menu}}
 				</small> </p>
 				</blockquote>
-				<font size = "2"><p>Are you a fan of any of these Irish dishes? 'Yum!' them to increase their 'Yum!' popularity!</p>
+				<font size = "2"><p>Are you a fan of any of these {{country_adj}} dishes? 'Yum!' them to increase their 'Yum!' popularity!</p>
 				<p>The YUMmiest! dishes can be found at the Top I-Cafe Dishes page!</p></font>
 			</center>
 			
 					<center>
-						 <h3><b>Cottage Pie </b></h3>
-					<img src='images/cottage-pie.jpg' class="img-responsive"></img>
+						 <h3><b>{{dish1}}</b></h3>
+					<img width="400px" src='{{dish1Img}}' class="img-responsive"></img>
 
 					<center><button class="btn btn-default" onClick="onClick()">
 						<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Yum!</button>
 					<h3> <small> There are currently <a id="clicks">18</a> yums for this dish! </small></h3></center>
 				<center>
-				<h3><b> Chocolate Potato Cake </b></h3> </center>
-				<img src='images/chocolate-cake.jpg' class="img-responsive"></img>
+				<h3><b>{{dish2}}</b></h3> </center>
+				<img width="400px" src='{{dish2Img}}' class="img-responsive"></img>
 				
 				
 				<center><button class="btn btn-default" onClick="onClick2()">
@@ -136,8 +137,8 @@
     <div class="widget">
     	<ul>
     		<center>
-    			<li class="active"><a href="infocountry"><h4> Learn more about Ireland here!</h4> </a></li>
-        		<li class="active"><a href="names"><h4> Let's learn some Irish!</h4> </a></li>
+    			<li class="active"><a href="infocountry"><h4> Learn more about {{country_name}} here!</h4> </a></li>
+				<li class="active"><a href="names"><h4> Let's learn some {{country_adj}}!</h4> </a></li>
 				<li class="active"><a href="analytics"> <h4>Top I-Cafe Dishes</h4> </a></li>
 			</center>
 		</ul>
@@ -147,6 +148,6 @@
 
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="/js/bootstrap.min.js"></script>
-
+{{/each}}
 </body>
 </html>

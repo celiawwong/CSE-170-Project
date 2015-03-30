@@ -1,7 +1,11 @@
 var nav = require('../navigation.json');
+var poland = require('../poland.json');
 
 exports.view = function(req,res) {
 
-	res.render('home',nav);	
+	res.render('home', {
+		'navigation': nav,
+		'country': poland.country
+	});	
 
 };

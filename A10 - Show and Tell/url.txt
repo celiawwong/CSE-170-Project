@@ -1,9 +1,0 @@
-Bonnie Chinh
-Celia Wong
-Wenjing Fang
-
-
-App name:
-World Kitchen
-
-http://worldkitchen.herokuapp.com/home

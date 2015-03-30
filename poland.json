@@ -1,0 +1,17 @@
+{
+	"country":[
+	{
+		"id": 1,
+		"country_name": "Poland",
+		"menu": "Kielbasa and sauerkraut served with rakott krumpli (layered potatoes), mizeria salad (cucumber salad) and sernik (Polish cheesecake) for dessert",
+		"date": "Friday, April 3, 2015",
+		"country_adj": "Polish",
+		"dish1": "Kielbasa and sauerkraut",
+		"dish1Img": "images/Poland/grilled-polish-sausage.jpg",
+		"dish2": "Sernik (Polish cheesecake)",
+		"dish2Img": "images/Poland/polski-sernik.jpg",
+		"carousel1": "images/Poland/Poland.jpg",
+		"carousel2": "images/Poland/poland2.jpg",
+		"carousel3": "images/Poland/poland3.jpg"
+	}]
+}
