@@ -53,12 +53,12 @@
 </a>
 <a class="back-to-top" style="display: inline;" href="#">Back to Top</a>
     <div>
-	<center>
+	<center> {{#each country}}
 		<h1>
-			Speak Irish
+			Speak {{country_adj}}
 		</h1>
     </br>
-
+{{/each}}
 <script type="text/javascript">
 $('#myTab a').click(function (e) {
   e.preventDefault()

@@ -32,13 +32,13 @@
                 </ul>
             </li>
         </ul>
-    </div>
+    </div>{{#each country}}
     </header>
 	<div class = "accordion" id="accordion2">
 		<div class = "accordion-group">
 			<div class = "accordion-heading">
 				<a class = "accordion-toggle" data-toggle="collapse" data-parent = "#accordion2" href="#collapseOne">
-					<h4> About Ireland 
+					<h4> About {{country_name}}
 					<span class="glyphicon glyphicon-circle-arrow-up" aria-label="right-align"></span> </h4>
 				</a>
 			</div>
@@ -58,7 +58,7 @@
 		<div class = "accordion-group">
 			<div class = "accordion-heading">
 				<a class = "accordion-toggle" data-toggle="collapse" data-parent = "#accordion2" href="#collapseTwo">
-				 <h4>Irish Cuisine <span class="glyphicon glyphicon-circle-arrow-down" aria-label="right-align"></span> </h4>
+				 <h4>{{country_adj}} Cuisine <span class="glyphicon glyphicon-circle-arrow-down" aria-label="right-align"></span> </h4>
 				</a>
 			</div>
 			<div id = "collapseTwo" class="accordion-body collapse">
@@ -87,7 +87,7 @@
     	<ul>
     		<center>
     			<li class="active"><a href="international_cafe"><h4> Go back to International Cafe!</h4> </a></li>
-        		<li class="active"><a href="names"><h4> Let's learn some Irish!</h4> </a></li>
+				<li class="active"><a href="names"><h4> Let's learn some {{country_adj}}!</h4> </a></li>
 				<li class="active"><a href="analytics"> <h4>Top I-Cafe Dishes</h4> </a></li>
 			</center>
 		</ul>
