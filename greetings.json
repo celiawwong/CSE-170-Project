@@ -2,8 +2,8 @@
 	"sentences":[
 	{
 		"id": 1,
-		"phrase": "  Cześć, nazywam się_____.",
-		"english": "Hello, my name is_____",
+		"phrase": "  Cześć, nazywam się _____.",
+		"english": "Hello, my name is _____",
 		"sound": "audio/poland/Czesc.wav"
 	},
 	{

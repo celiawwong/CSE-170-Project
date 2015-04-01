@@ -2,36 +2,36 @@
 	"names":[
 	{
 		"id": 1,
-		"maleName": "  Piotr (Piotrek)",
-		"femaleName": "  Anna (Ania, Anka)",
+		"maleName": "  Piotr",
+		"femaleName": "  Anna",
 		"maleSound": "audio/poland/Piotr.wav",
 		"femaleSound": "audio/poland/Anna.wav"
 	},
 	{
 		"id": 2,
 		"maleName": "  Michał",
-		"femaleName": "  Katarzyna (Kasia)",
+		"femaleName": "  Katarzyna",
 		"maleSound": "audio/poland/Michal.wav",
 		"femaleSound": "audio/poland/Katarzyna.wav"
 	},
 	{
 		"id": 3,
-		"maleName": "  Jakub (Kuba)",
+		"maleName": "  Jakub",
 		"femaleName": "  Julia",
 		"maleSound": "audio/poland/Jakub.wav",
 		"femaleSound": "audio/poland/Julia.wav"
 	},
 	{
 		"id": 4,
-		"maleName": "  Bartosz (Bartek)",
-		"femaleName": "  Zofia (Zosia)",
+		"maleName": "  Bartosz",
+		"femaleName": "  Zofia",
 		"maleSound": "audio/poland/Bartosz.wav",
 		"femaleSound": "audio/poland/Zofia.wav"
 	},
 	{
 		"id": 5,
-		"maleName": "  Jan (Jaś)",
-		"femaleName": "  Magdalena (Magda)",
+		"maleName": "  Jan",
+		"femaleName": "  Magdalena",
 		"maleSound": "audio/poland/Jan.wav",
 		"femaleSound": "audio/poland/Magdalena.wav"
 	}
