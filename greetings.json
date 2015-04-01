@@ -2,19 +2,19 @@
 	"sentences":[
 	{
 		"id": 1,
-		"phrase": "  Czesc, nazywam sie_____.",
+		"phrase": "  Cześć, nazywam się_____.",
 		"english": "Hello, my name is_____",
 		"sound": "audio/poland/Czesc.wav"
 	},
 	{
 		"id": 2,
-		"phrase": "  Jak sie nazywasz?",
+		"phrase": "  Jak się nazywasz?",
 		"english": "What is your name?",
 		"sound": "audio/poland/Jak_sie_nazywasz.wav"
 	},
 	{
 		"id": 3,
-		"phrase": "  Dziekuje.",
+		"phrase": "  Dziękuję.",
 		"english": "Thank you.",
 		"sound": "audio/poland/Dziekuje.wav"
 	},
@@ -26,7 +26,7 @@
 	},
 	{
 		"id": 5,
-		"phrase": "  Jak nazywa sie to danie?",
+		"phrase": "  Jak nazywa się to danie?",
 		"english": "What is this dish called?",
 		"sound": "audio/poland/Jak_nazywa_sie_to_danie.wav"
 	}

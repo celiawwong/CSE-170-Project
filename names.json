@@ -9,7 +9,7 @@
 	},
 	{
 		"id": 2,
-		"maleName": "  Michal",
+		"maleName": "  Michał",
 		"femaleName": "  Katarzyna (Kasia)",
 		"maleSound": "audio/poland/Michal.wav",
 		"femaleSound": "audio/poland/Katarzyna.wav"
@@ -30,7 +30,7 @@
 	},
 	{
 		"id": 5,
-		"maleName": "  Jan (Jas)",
+		"maleName": "  Jan (Jaś)",
 		"femaleName": "  Magdalena (Magda)",
 		"maleSound": "audio/poland/Jan.wav",
 		"femaleSound": "audio/poland/Magdalena.wav"
