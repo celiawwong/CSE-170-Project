@@ -2,33 +2,33 @@
 	"sentences":[
 	{
 		"id": 1,
-		"phrase": "  Dia dhuit.",
-		"english": "Hello",
-		"sound": "audio/Dia_dhuit.wav"
+		"phrase": "  Czesc, nazywam sie_____.",
+		"english": "Hello, my name is_____",
+		"sound": "audio/poland/Czesc.wav"
 	},
 	{
 		"id": 2,
-		"phrase": "  Dia is Muire dhuit.",
-		"english": "Hello (as a reply).",
-		"sound": "audio/Dia_is_Muire_dhuit.wav"
+		"phrase": "  Jak sie nazywasz?",
+		"english": "What is your name?",
+		"sound": "audio/poland/Jak_sie_nazywasz.wav"
 	},
 	{
 		"id": 3,
-		"phrase": "  Cad is ainm duit?",
-		"english": "What is your name?",
-		"sound": "audio/Cad_is_ainm_dhuit.wav"
+		"phrase": "  Dziekuje.",
+		"english": "Thank you.",
+		"sound": "audio/poland/Dziekuje.wav"
 	},
 	{
 		"id": 4,
-		"phrase": "  (name) is ainm dom.",
-		"english": "My name is (name).",
-		"sound": "audio/_is_ainm_dom.wav"
+		"phrase": "  To danie jest pyszne.",
+		"english": "This dish is delicious.",
+		"sound": "audio/poland/To_danie_jest_pyszne.wav"
 	},
 	{
 		"id": 5,
-		"phrase": "  Is é seo an bia sobhlasta.",
-		"english": "This food is delicious.",
-		"sound": "audio/is_e_seo_bia_sobhlasta.wav"
+		"phrase": "  Jak nazywa sie to danie?",
+		"english": "What is this dish called?",
+		"sound": "audio/poland/Jak_nazywa_sie_to_danie.wav"
 	}
 	]
 }
