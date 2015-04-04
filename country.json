@@ -9,10 +9,10 @@
 		"dish1": "Kielbasa and sauerkraut",
 		"dish1Img": "images/Poland/grilled-polish-sausage.jpg",
 		"dish2": "Sernik (Polish cheesecake)",
-		"dish2Img": "images/Poland/polski-sernik.jpg",
-		"carousel1": "images/Poland/Poland.jpg",
-		"carousel2": "images/Poland/poland2.jpg",
-		"carousel3": "images/Poland/poland3.jpg"	
+		"dish2Img": "images/poland/polski-sernik.jpg",
+		"carousel1": "images/poland/Poland.jpg",
+		"carousel2": "images/poland/poland2.jpg",
+		"carousel3": "images/poland/poland3.jpg"	
 	}
 	],
 
@@ -20,16 +20,20 @@
 	{
 		"id": 2,
 		"country_name": "Russia",
-		"menu": "Beef stroganof served over egg noodles, vinaigrette salad and pitchie moloko cake for dessert",
+		"menu": "Beef stroganoff served over egg noodles, vinaigrette salad and pitchye moloko cake for dessert",
 		"cafe_date": "Friday, April 10, 2015",
 		"country_adj": "Russian",
-		"dish1": "Kielbasa and sauerkraut",
-		"dish1Img": "images/Poland/grilled-polish-sausage.jpg",
-		"dish2": "Sernik (Polish cheesecake)",
-		"dish2Img": "images/Poland/polski-sernik.jpg",
-		"carousel1": "images/Poland/Poland.jpg",
-		"carousel2": "images/Poland/poland2.jpg",
-		"carousel3": "images/Poland/poland3.jpg"
+		"dish1": "Beef stroganof",
+		"dish1Img": "images/russia/beef-stroganoff.jpg",
+		"dish2": "Pitchye moloko cake",
+		"dish2Img": "images/russia/pitchye-moloko.jpg",
+		"carousel1": "images/russia/russia1.jpg",
+		"carousel2": "images/russia/russia2.jpg",
+		"carousel3": "images/russia/russia3.jpg",
+		"about": "Russia is a country in northern Eurasia. It is a federal semi-presidential republic. At 17,075,400 square kilometres (6,592,800 sq mi), Russia is the largest country in the world, covering more than one-eighth of the Earth's inhabited land area. Russia is also the world's ninth most populous nation with nearly 144 million people as of 2015.",
+		"about_pic1": "images/russia/Russian-Culture.jpg",
+		"about_pic2": "images/russia/russian-flag.jpg",
+		"cuisine": "Russian cuisine widely uses fish, poultry, mushrooms, berries, and honey. Crops of rye, wheat, barley, and millet provide the ingredients for various breads, pancakes and cereals, as well as for kvass, beer and vodka drinks. Black bread is rather popular in Russia, compared to the rest of the world. Flavourful soups and stews include shchi, borsch, ukha, solyanka and okroshka."
 	}
 	],
 
