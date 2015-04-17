@@ -2,33 +2,43 @@
 	"sentences":[
 	{
 		"id": 1,
-		"phrase": "  Cześć, nazywam się _____.",
+		"phrase_male": "  Male",
+		"phrase_female": "  Female",
 		"english": "Hello, my name is _____",
-		"sound": "audio/poland/Czesc.wav"
+		"sound_male": "audio/thailand/hello-thai-m.wav",
+		"sound_female": "audio/thailand/hello-thai-f.wav"
 	},
 	{
 		"id": 2,
-		"phrase": "  Jak się nazywasz?",
+		"phrase_male": "  Male",
+		"phrase_female": "  Female",
 		"english": "What is your name?",
-		"sound": "audio/poland/Jak_sie_nazywasz.wav"
+		"sound_male": "audio/thailand/name-thai-m.wav",
+		"sound_female": "audio/thailand/name-thai-f.wav"
 	},
 	{
 		"id": 3,
-		"phrase": "  Dziękuję.",
+		"phrase_male": "  Male",
+		"phrase_female": " Female",
 		"english": "Thank you.",
-		"sound": "audio/poland/Dziekuje.wav"
+		"sound_male": "audio/thailand/thank-you-thai-m.wav",
+		"sound_female": "audio/thailand/thank-you-thai-f.wav"
 	},
 	{
 		"id": 4,
-		"phrase": "  To danie jest pyszne.",
+		"phrase_male": "  Male",
+		"phrase_female": " Female",
 		"english": "This dish is delicious.",
-		"sound": "audio/poland/To_danie_jest_pyszne.wav"
+		"sound_male": "audio/thailand/delicious-thai-m.wav",
+		"sound_female": "audio/thailand/delicious-thai-f.wav"
 	},
 	{
 		"id": 5,
-		"phrase": "  Jak nazywa się to danie?",
+		"phrase_male": "  Male",
+		"phrase_female": " Female",
 		"english": "What is this dish called?",
-		"sound": "audio/poland/Jak_nazywa_sie_to_danie.wav"
+		"sound_male": "audio/thailand/dish-thai-m.wav",
+		"sound_female": "audio/thailand/dish-thai-f.wav"
 	}
 	]
 }

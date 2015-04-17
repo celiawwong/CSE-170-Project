@@ -84,9 +84,9 @@ $('#myTab a[href="#phrases"]').tab('show')
         <p>Click to hear the pronunciation!</p>
     </br>
 
-    <br /><br /><h1 style="color: red">Oops! This page is currently under construction. Please check back later.</h1>
+<!--    <br /><br /><h1 style="color: red">Oops! This page is currently under construction. Please check back later.</h1> -->
 
-<!--    <div>
+    <div>
     <div class="jumbotron">
     <div class= "background">
         <table class="table table-responsive table-striped table-bordered table-hover">
@@ -106,22 +106,26 @@ $('#myTab a[href="#phrases"]').tab('show')
         </table>
     </div>
 </div> 
-</div> -->
+</div>
 </div>
     <div role="tabpanel" class="tab-pane" id="phrases">
             <h3>Common Greetings and Phrases</h3>
             <p style="padding-left: 2px" style="padding-right: 2px">Click to hear the pronunciation! English translations are provided above each phrase.</p>
+            <br />
+            <p>In Thai, the way that a phrase is said depends on whether you are a male speaker or a female speaker.</p>
         </br>
 
-        <br /><br /><h1 style="color: red">Oops! This page is currently under construction. Please check back later.</h1>
+<!--        <br /><br /><h1 style="color: red">Oops! This page is currently under construction. Please check back later.</h1>
+-->
 
-<!--    <div class="container">
+    <div class="container">
     <div class="jumbotron">
     <div class= "background">
             <ul>
                 {{#each sentences}}
                 <p><small><b>{{english}}</b></small><p>
-                <button class='btn btn-link' onclick="javascript:jBeep('{{sound}}');"><span class='glyphicon glyphicon-play-circle' aria-hidden='true'?></span>{{phrase}}</button>
+                <button class='btn btn-link' onclick="javascript:jBeep('{{sound_male}}');"><span class='glyphicon glyphicon-play-circle' aria-hidden='true'?></span>{{phrase_male}}</button>
+                <button class='btn btn-link' onclick="javascript:jBeep('{{sound_female}}');"><span class='glyphicon glyphicon-play-circle' aria-hidden='true'?></span>{{phrase_female}}</button>
                 </br>
                 {{/each}}
             </ul>
@@ -129,7 +133,7 @@ $('#myTab a[href="#phrases"]').tab('show')
     </div>
 </div>
 </div>
-</div> -->
+</div>
 </div>
 
     <script src="https://code.jquery.com/jquery.js"></script>

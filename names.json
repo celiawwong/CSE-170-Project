@@ -2,38 +2,38 @@
 	"names":[
 	{
 		"id": 1,
-		"maleName": "  Piotr",
-		"femaleName": "  Anna",
-		"maleSound": "audio/poland/Piotr.wav",
-		"femaleSound": "audio/poland/Anna.wav"
+		"maleName": "  Somchai",
+		"femaleName": "  Kamonchanok",
+		"maleSound": "audio/thailand/Somchai.wav",
+		"femaleSound": "audio/thailand/Kamonchanok.wav"
 	},
 	{
 		"id": 2,
-		"maleName": "  Michał",
-		"femaleName": "  Katarzyna",
-		"maleSound": "audio/poland/Michal.wav",
-		"femaleSound": "audio/poland/Katarzyna.wav"
+		"maleName": "  Somsak",
+		"femaleName": "  Natnicha",
+		"maleSound": "audio/thailand/Somsak.wav",
+		"femaleSound": "audio/thailand/Natnicha.wav"
 	},
 	{
 		"id": 3,
-		"maleName": "  Jakub",
-		"femaleName": "  Julia",
-		"maleSound": "audio/poland/Jakub.wav",
-		"femaleSound": "audio/poland/Julia.wav"
+		"maleName": "  Napat",
+		"femaleName": "  Supaporn",
+		"maleSound": "audio/thailand/Napat.wav",
+		"femaleSound": "audio/thailand/Supaporn.wav"
 	},
 	{
 		"id": 4,
-		"maleName": "  Bartosz",
-		"femaleName": "  Zofia",
-		"maleSound": "audio/poland/Bartosz.wav",
-		"femaleSound": "audio/poland/Zofia.wav"
+		"maleName": "  Thanakorn",
+		"femaleName": "  Somsri",
+		"maleSound": "audio/thailand/Thanakorn.wav",
+		"femaleSound": "audio/thailand/Somsri.wav"
 	},
 	{
 		"id": 5,
-		"maleName": "  Jan",
-		"femaleName": "  Magdalena",
-		"maleSound": "audio/poland/Jan.wav",
-		"femaleSound": "audio/poland/Magdalena.wav"
+		"maleName": "  Jetsada",
+		"femaleName": "  Sasitorn",
+		"maleSound": "audio/thailand/Jetsada.wav",
+		"femaleSound": "audio/thailand/Sasitorn.wav"
 	}
 	]
 }
