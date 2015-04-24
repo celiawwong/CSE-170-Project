@@ -1,21 +1,21 @@
 {
 	"country":[
 	{
-		"id": 3,
-		"country_name": "Thailand",
-		"menu": "Chicken pad thai with rice noodles, Thai chopped salad and steamed layer pudding for dessert",
-		"cafe_date": "Friday, April 17, 2015",
-		"country_adj": "Thai",
-		"dish1": "Pad Thai",
-		"dish1Img": "images/thailand/pad-thai.jpg",
-		"dish2": "Steamed layer pudding",
-		"dish2Img": "images/thailand/steamed-layer-cake.jpg",
-		"carousel1": "images/thailand/thailand1.jpg",
-		"carousel2": "images/thailand/thailand2.jpg",
-		"carousel3": "images/thailand/thailand3.jpg",
-		"about": "Thailand is a country at the centre of the Indochina peninsula in Southeast Asia. It is bordered to the north by Burma and Laos, to the east by Laos and Cambodia, to the south by the Gulf of Thailand and Malaysia, and to the west by the Andaman Sea and the southern extremity of Burma.",
-		"about_pic1": "images/thailand/thailand-culture.jpg",
-		"about_pic2": "images/thailand/thailand-culture2.jpg",
-		"cuisine": "Thai cuisine blends five fundamental tastes: sweet, spicy, sour, bitter, and salty. Thai cuisine is heavily inspired by Chinese cuisine, especially Thai street food, soups and stir fry dishes. Some common ingredients used in Thai cuisine include garlic, chillies, lime juice, lemon grass, sugar, and fish sauce. The staple food in Thailand is rice, particularly jasmine variety rice (also known as 'hom Mali' rice) which is included at almost every meal. Thailand was long the world's largest exporter of rice, and Thais domestically consume over 100 kg of milled rice per person per year."
+				"id": 4,
+		"country_name": "Korea",
+		"menu": "Beef bulgogi served with white rice, spicy cucumber salad and baesuk (steamed pears) for dessert",
+		"cafe_date": "Friday, April 24, 2015",
+		"country_adj": "Korean",
+		"dish1": "Beef bulgogi",
+		"dish1Img": "images/korea/beef-bulgogi.jpg",
+		"dish2": "Baesuk (steamed pears)",
+		"dish2Img": "images/korea/baesuk.jpg",
+		"carousel1": "images/korea/korea1.jpg",
+		"carousel2": "images/korea/korea2.jpg",
+		"carousel3": "images/korea/korea3.jpg",
+		"about": "Korea is an East Asian territory that is divided into two distinct sovereign states, North Korea (a.k.a. Democratic People's Republic of Korea, or DPRK) and South Korea (a.k.a. Republic of Korea, or ROK). Located on the Korean Peninsula, Korea is bordered by China to the northwest and Russia to the northeast. It is separated from Japan to the east by the Korea Strait and the East Sea.",
+		"about_pic1": "images/korea/korea.jpg",
+		"about_pic2": "images/korea/thailand-culture.jpg",
+		"cuisine": "Korean cuisine is probably best known for kimchi, a side dish which uses a distinctive fermentation process of preserving vegetables, most commonly cabbage. Kimchi is said to relieve the pores on the skin, thereby reducing wrinkles and providing nutrients to the skin naturally. It is also healthy, as it provides necessary vitamins and nutrients. Gochujang (Korean traditional sauce made of red pepper) is also commonly used, often as pepper (chilli) paste, earning the cuisine a reputation for being spicy."
 	}]
 }
