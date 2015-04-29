@@ -1,21 +1,21 @@
 {
 	"country":[
 	{
-				"id": 4,
-		"country_name": "Korea",
-		"menu": "Beef bulgogi served with white rice, spicy cucumber salad and baesuk (steamed pears) for dessert",
-		"cafe_date": "Friday, April 24, 2015",
-		"country_adj": "Korean",
-		"dish1": "Beef bulgogi",
-		"dish1Img": "images/korea/beef-bulgogi.jpg",
-		"dish2": "Baesuk (steamed pears)",
-		"dish2Img": "images/korea/baesuk.jpg",
-		"carousel1": "images/korea/korea1.jpg",
-		"carousel2": "images/korea/korea2.jpg",
-		"carousel3": "images/korea/korea3.jpg",
-		"about": "Korea is an East Asian territory that is divided into two distinct sovereign states, North Korea (a.k.a. Democratic People's Republic of Korea, or DPRK) and South Korea (a.k.a. Republic of Korea, or ROK). Located on the Korean Peninsula, Korea is bordered by China to the northwest and Russia to the northeast. It is separated from Japan to the east by the Korea Strait and the East Sea.",
-		"about_pic1": "images/korea/korea.jpg",
-		"about_pic2": "images/korea/thailand-culture.jpg",
-		"cuisine": "Korean cuisine is probably best known for kimchi, a side dish which uses a distinctive fermentation process of preserving vegetables, most commonly cabbage. Kimchi is said to relieve the pores on the skin, thereby reducing wrinkles and providing nutrients to the skin naturally. It is also healthy, as it provides necessary vitamins and nutrients. Gochujang (Korean traditional sauce made of red pepper) is also commonly used, often as pepper (chilli) paste, earning the cuisine a reputation for being spicy."
+		"id": 5,
+		"country_name": "Greece",
+		"menu": "Chicken souvlaki, Greek salad, pita bread with tzatziki sauce and baklava for dessert",
+		"cafe_date": "Friday, May 1, 2015",
+		"country_adj": "Greek",
+		"dish1": "Chicken souvlaki",
+		"dish1Img": "images/greece/chicken-suvlaki.jpg",
+		"dish2": "Baklava",
+		"dish2Img": "images/greece/baklava.jpg",
+		"carousel1": "images/greece/greece1.jpg",
+		"carousel2": "images/greece/greece2.jpg",
+		"carousel3": "images/greece/greece3.jpg",
+		"about": "Greece is a country located in southeastern Europe. Modern Greece traces its roots to the civilization of Ancient Greece, which is considered the cradle of all Western civilization. Greece is the birthplace of democracy, Western philosophy, the Olympic Games, Western literature, historiography, political science, major scientific and mathematical principles and Western drama, including both tragedy and comedy. The cultural and technological achievements of Greece have greatly influenced the world, being imparted to the East through Alexander the Great's conquests, and to the West via incorporation into the Roman Empire and the succeeding Byzantine Empire.",
+		"about_pic1": "images/greece/greek-culture.jpg",
+		"about_pic2": "images/greece/greek-culture2.jpg",
+		"cuisine": "Greek cuisine is characteristic of the healthy Mediterranean diet, which is epitomized by dishes of Crete. Greek cuisine incorporates fresh ingredients into a variety of local dishes such as moussaka, stifado, Greek salad, fasolada, spanakopita and souvlaki. Some dishes can be traced back to ancient Greece like skordalia (a thick purée of walnuts, almonds, crushed garlic and olive oil), lentil soup, retsina (white or rosé wine sealed with pine resin) and pasteli (candy bar with sesame seeds baked with honey). Throughout Greece people often enjoy eating from small dishes such as meze with various dips such as tzatziki, grilled octopus and small fish, feta cheese, dolmades (rice, currants and pine kernels wrapped in vine leaves), various pulses, olives and cheese. Olive oil is added to almost every dish."	
 	}]
 }
