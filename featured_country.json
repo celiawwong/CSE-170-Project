@@ -1,21 +1,22 @@
 {
 	"country":[
 	{
-		"id": 5,
-		"country_name": "Greece",
-		"menu": "Chicken souvlaki, Greek salad, pita bread with tzatziki sauce and baklava for dessert",
-		"cafe_date": "Friday, May 1, 2015",
-		"country_adj": "Greek",
-		"dish1": "Chicken souvlaki",
-		"dish1Img": "images/greece/chicken-suvlaki.jpg",
-		"dish2": "Baklava",
-		"dish2Img": "images/greece/baklava.jpg",
-		"carousel1": "images/greece/greece1.jpg",
-		"carousel2": "images/greece/greece2.jpg",
-		"carousel3": "images/greece/greece3.jpg",
-		"about": "Greece is a country located in southeastern Europe. Modern Greece traces its roots to the civilization of Ancient Greece, which is considered the cradle of all Western civilization. Greece is the birthplace of democracy, Western philosophy, the Olympic Games, Western literature, historiography, political science, major scientific and mathematical principles and Western drama, including both tragedy and comedy. The cultural and technological achievements of Greece have greatly influenced the world, being imparted to the East through Alexander the Great's conquests, and to the West via incorporation into the Roman Empire and the succeeding Byzantine Empire.",
-		"about_pic1": "images/greece/greek-culture.jpg",
-		"about_pic2": "images/greece/greek-culture2.jpg",
-		"cuisine": "Greek cuisine is characteristic of the healthy Mediterranean diet, which is epitomized by dishes of Crete. Greek cuisine incorporates fresh ingredients into a variety of local dishes such as moussaka, stifado, Greek salad, fasolada, spanakopita and souvlaki. Some dishes can be traced back to ancient Greece like skordalia (a thick purée of walnuts, almonds, crushed garlic and olive oil), lentil soup, retsina (white or rosé wine sealed with pine resin) and pasteli (candy bar with sesame seeds baked with honey). Throughout Greece people often enjoy eating from small dishes such as meze with various dips such as tzatziki, grilled octopus and small fish, feta cheese, dolmades (rice, currants and pine kernels wrapped in vine leaves), various pulses, olives and cheese. Olive oil is added to almost every dish."	
-	}]
+		"id": 6,
+		"country_name": "Mexico",
+		"menu": "Taco bar with corn tortillas, chips and salsa, black beans, Mexican-style rice and flan for dessert",
+		"cafe_date": "Friday, May 8, 2015",
+		"country_adj": "Mexican",
+		"dish1": "Tacos",
+		"dish1Img": "images/mexico/tacos.jpg",
+		"dish2": "Flan",
+		"dish2Img": "images/mexico/flan.jpg",
+		"carousel1": "images/mexico/mexico1.jpg",
+		"carousel2": "images/mexico/mexico2.jpg",
+		"carousel3": "images/mexico/mexico3.jpg",
+		"about": "Mexico is the fifth largest country in the Americas by total area and the 13th largest independent nation in the world. With an estimated population of over 113 million, it is the eleventh most populous and the most populous Spanish-speaking country in the world and the second most populous country in Latin America. Mexico is a federation comprising thirty-one states and a Federal District, its capital and largest city.",
+		"about_pic1": "images/mexico/mexico.jpg",
+		"about_pic2": "images/mexico/thailand-culture.jpg",
+		"cuisine": "The most internationally recognized dishes include chocolate, tacos, quesadillas, enchiladas, burritos, tamales and mole among others. Regional dishes include mole poblano, chiles en nogada and chalupas from Puebla; cabrito and machaca from Monterrey, cochinita pibil from Yucatán, Tlayudas from Oaxaca, as well as barbacoa, chilaquiles, milanesas, and many others."
+	}
+	]
 }
