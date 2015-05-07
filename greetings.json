@@ -2,43 +2,33 @@
 	"sentences":[
 	{
 		"id": 1,
-		"phrase_male": "  Male",
-		"phrase_female": "  Female",
-		"english": "Hello, my name is _____",
-		"sound_male": "audio/thailand/hello-thai-m.wav",
-		"sound_female": "audio/thailand/hello-thai-f.wav"
+		"phrase": "  Hola, me llamo _____.",
+		"english": "Hello, my name is _____.",
+		"sound": "audio/mexico/me_llamo.wav"
 	},
 	{
 		"id": 2,
-		"phrase_male": "  Male",
-		"phrase_female": "  Female",
+		"phrase": "  ¿Cómo te llamas?",
 		"english": "What is your name?",
-		"sound_male": "audio/thailand/name-thai-m.wav",
-		"sound_female": "audio/thailand/name-thai-f.wav"
+		"sound": "audio/mexico/como_te_llamas.wav"
 	},
 	{
 		"id": 3,
-		"phrase_male": "  Male",
-		"phrase_female": " Female",
+		"phrase": "  Gracias.",
 		"english": "Thank you.",
-		"sound_male": "audio/thailand/thank-you-thai-m.wav",
-		"sound_female": "audio/thailand/thank-you-thai-f.wav"
+		"sound": "audio/mexico/gracias.wav"
 	},
 	{
 		"id": 4,
-		"phrase_male": "  Male",
-		"phrase_female": " Female",
+		"phrase": "  Esta comida es deliciosa.",
 		"english": "This dish is delicious.",
-		"sound_male": "audio/thailand/delicious-thai-m.wav",
-		"sound_female": "audio/thailand/delicious-thai-f.wav"
+		"sound": "audio/mexico/deliciosa.wav"
 	},
 	{
 		"id": 5,
-		"phrase_male": "  Male",
-		"phrase_female": " Female",
+		"phrase": "  ¿Cómo se llama este plato?",
 		"english": "What is this dish called?",
-		"sound_male": "audio/thailand/dish-thai-m.wav",
-		"sound_female": "audio/thailand/dish-thai-f.wav"
+		"sound": "audio/mexico/plato.wav"
 	}
 	]
 }

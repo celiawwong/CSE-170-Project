@@ -2,38 +2,38 @@
 	"names":[
 	{
 		"id": 1,
-		"maleName": "  Somchai",
-		"femaleName": "  Kamonchanok",
-		"maleSound": "audio/thailand/Somchai.wav",
-		"femaleSound": "audio/thailand/Kamonchanok.wav"
+		"maleName": "  Gerardo",
+		"femaleName": "  Daniela",
+		"maleSound": "audio/mexico/Gerardo.wav",
+		"femaleSound": "audio/mexico/Daniela.wav"
 	},
 	{
 		"id": 2,
-		"maleName": "  Somsak",
-		"femaleName": "  Natnicha",
-		"maleSound": "audio/thailand/Somsak.wav",
-		"femaleSound": "audio/thailand/Natnicha.wav"
+		"maleName": "  Enrique",
+		"femaleName": "  Alejandra",
+		"maleSound": "audio/mexico/Enrique.wav",
+		"femaleSound": "audio/mexico/Alejandra.wav"
 	},
 	{
 		"id": 3,
-		"maleName": "  Napat",
-		"femaleName": "  Supaporn",
-		"maleSound": "audio/thailand/Napat.wav",
-		"femaleSound": "audio/thailand/Supaporn.wav"
+		"maleName": "  Sergio",
+		"femaleName": "  Julia",
+		"maleSound": "audio/mexico/Sergio.wav",
+		"femaleSound": "audio/mexico/Julia.wav"
 	},
 	{
 		"id": 4,
-		"maleName": "  Thanakorn",
-		"femaleName": "  Somsri",
-		"maleSound": "audio/thailand/Thanakorn.wav",
-		"femaleSound": "audio/thailand/Somsri.wav"
+		"maleName": "  Hugo",
+		"femaleName": "  Graciela",
+		"maleSound": "audio/mexico/Hugo.wav",
+		"femaleSound": "audio/mexico/Graciela.wav"
 	},
 	{
 		"id": 5,
-		"maleName": "  Jetsada",
-		"femaleName": "  Sasitorn",
-		"maleSound": "audio/thailand/Jetsada.wav",
-		"femaleSound": "audio/thailand/Sasitorn.wav"
+		"maleName": "  Josué",
+		"femaleName": "  Leticia",
+		"maleSound": "audio/mexico/Josue.wav",
+		"femaleSound": "audio/mexico/Leticia.wav"
 	}
 	]
 }

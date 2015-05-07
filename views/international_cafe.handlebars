@@ -2,9 +2,9 @@
 <html>
 <body>
 	<script type="text/javascript">
-    var clicks = 18;
-    var clicks2 = 33;
-    var clicks3 = 15;
+    var clicks = 0;
+    var clicks2 = 0;
+    var clicks3 = 0;
     var clicked1 = false;
     var clicked2 = false;
     var clicked3 = false;
@@ -97,7 +97,7 @@
 
 					<center><button class="btn btn-default" onClick="onClick()">
 						<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Yum!</button>
-					<h3> <small> There are currently <a id="clicks">18</a> yums for this dish! </small></h3></center>
+					<h3> <small> There are currently <a id="clicks">0</a> yums for this dish! </small></h3></center>
 				<center>
 				<h3><b>{{dish2}}</b></h3> </center>
 				<img width="400px" src='{{dish2Img}}' class="img-responsive"></img>
@@ -105,7 +105,7 @@
 				
 				<center><button class="btn btn-default" onClick="onClick2()">
 					<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Yum!</button>
-					<h3><small> There are currently <a id="clicks2">33</a> yums for this dish! </small></h3></center>
+					<h3><small> There are currently <a id="clicks2">0</a> yums for this dish! </small></h3></center>
 			</center>
 		</div>
 		</div>
@@ -118,7 +118,7 @@
 			<div class="jumbotron">
 	<h5 style="font-weight:bold;"> Are you joining us this week?</h5>
 	
-	<h5><small> We currently have <a id="clicks3">15 </a> people joining us! </small> </h5> 
+	<h5><small> We currently have <a id="clicks3">0 </a> people joining us! </small> </h5> 
 	<font size ="4"><p style=""><button class="btn btn-default" onClick="onClick3()">
 		<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> I'm joining!</button></p></font>
 </div>
@@ -138,7 +138,7 @@
     	<ul>
     		<center>
     			<li class="active"><a href="infocountry"><h4> Learn more about {{country_name}} here!</h4> </a></li>
-				<li class="active"><a href="names"><h4> Let's learn some {{country_adj}}!</h4> </a></li>
+				<li class="active"><a href="names"><h4> Let's learn some Spanish!</h4> </a></li>
 				<li class="active"><a href="analytics"> <h4>Top I-Cafe Dishes</h4> </a></li>
 			</center>
 		</ul>
